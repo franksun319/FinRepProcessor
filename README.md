@@ -16,3 +16,15 @@
 在Windows命令行下使用：_CalcTxts.exe [待处理分词文件所在目录]_
 
 输入由CustSplitTxts产生的分词文本所在目录。输出对所有分词文件的文本计算结果，包括对应于各分词文件的词频和TF-IDF计算结果，以及汇总的词频和TF-IDF值。
+
+**3. SplitTxts.exe**
+
+功能与CustSplitTxts相同，但输入的是文件列表，而不是目录路径。
+
+在Windows命令行下使用：_SplitTxts.exe [待分词文本文件列表]_
+
+**4. CountWords.exe**
+
+简单计算文本文件的字数（中文：按字计算；英文：按字母计算，不计入空格）。
+
+在Windows命令行下使用：_CountWords.exe [待计算文本文件目录]_
